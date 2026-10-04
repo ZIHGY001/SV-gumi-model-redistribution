@@ -1,0 +1,6 @@
+Halfne Miku Studio Reborn
+Source: https://github.com/yuyuyzl/halfne-miku-studio-reborn
+Model specification: https://github.com/yuyuyzl/halfne-miku-studio-reborn/blob/master/model-docs.md
+Upstream author: yuyuyzl. Original Halfne Miku Studio: JohnSu / Bietol.
+Fetched master on 2026-10-04. Source files and adaptations are listed in upstream_source_manifest.json.
+No LICENSE file was present in the retrieved upstream archive. No license text has been invented.

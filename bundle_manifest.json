@@ -1,0 +1,289 @@
+{
+  "schema": "gumi-halfne-model-bundle-v1",
+  "files": {
+    "GUMI_大脸Q版_小初音工作室随唱口型模型.js": {
+      "sha256": "1f26cabcdbdbe99bd4ca6ebafae97553ccec588c7ac559a7d968762f28c39878",
+      "bytes": 512757
+    },
+    "assets/gumi/parts/arm_left.png": {
+      "sha256": "042c9ab822afce3cf8317b724abaf449af890b660c3223d5864474aaa6cc2399",
+      "bytes": 11328
+    },
+    "assets/gumi/parts/arm_right.png": {
+      "sha256": "7dd0f9158de089ff23e4ed84f8e671919cd79f13dcd37ec4e19d4a9cf6ea7f6c",
+      "bytes": 11388
+    },
+    "assets/gumi/parts/body.png": {
+      "sha256": "5702733402d2011062293e57d6ff8d7c58d60d47bc55dfddc657388a7cdf9aea",
+      "bytes": 99486
+    },
+    "assets/gumi/parts/eye_left.png": {
+      "sha256": "1faf76744f0a4c0ee796bf15d6fbc42e9415133d66b3b26e0deb1873590508fb",
+      "bytes": 11265
+    },
+    "assets/gumi/parts/eye_right.png": {
+      "sha256": "152267b5f6d938d5ed7308f13a84e2a9714299080c3d2c74288b4a9d46ba19bb",
+      "bytes": 13740
+    },
+    "assets/gumi/parts/hair_left.png": {
+      "sha256": "b650dd85e14a66befdbfb5c8b227016690ae018ad8fa853d49aad7189e8a06b0",
+      "bytes": 62805
+    },
+    "assets/gumi/parts/hair_right.png": {
+      "sha256": "607456bd03648928caeb886aa3e42677260e4097f05bd7d8b66e752b450264ee",
+      "bytes": 56808
+    },
+    "assets/gumi/parts/head.png": {
+      "sha256": "9eeb65721590cb9ddb95a20ade871a3bffb1fe12e63ab43dc7673d0a6ed0a400",
+      "bytes": 271535
+    },
+    "assets/gumi/parts/skirt.png": {
+      "sha256": "a744361021d051ec8b34dd8af0f8ce9b203a0103ed0050473ff41b1762e3891b",
+      "bytes": 40256
+    },
+    "assets/gumi/rig_exports.json": {
+      "sha256": "f5c6e38ce5ffbbee961061413e718018c0d0e8c68c63affd2a499ac2e945739d",
+      "bytes": 5095
+    },
+    "audio_features.npz": {
+      "sha256": "0131b85597ce24786b5cf11470deaebafda40eb85f64496bcff49510f05fc694",
+      "bytes": 1323690
+    },
+    "model/HMSR_GUMI_PV.json": {
+      "sha256": "946fccb81dd45e137d563732b36d2569178a44aae41ca915d8e07f81a5b5a569",
+      "bytes": 2842598
+    },
+    "model/build_model.py": {
+      "sha256": "e92452924bd14c695cce65e452c461ac9dd22672a0e390b491584012e71cc2c0",
+      "bytes": 12023
+    },
+    "model/build_provenance.json": {
+      "sha256": "4283bd00354a494be3901f7b6372d86f551a1a40a441d03606b7bba17e9e03b4",
+      "bytes": 4924
+    },
+    "model/control_manifest.json": {
+      "sha256": "df43fdabba78361f68419983492e8b88b9671363530a7c761cc37b17ac3ad577",
+      "bytes": 1115
+    },
+    "model/extract_mouth_envelope.py": {
+      "sha256": "3a760f37af2629b3f7c2eb7e00ac2c7e6ef82966bdafb1c833cd43e35870c537",
+      "bytes": 8522
+    },
+    "model/model_manifest.json": {
+      "sha256": "b42948adbeeacfeaeb6bf6e3399795c1a861917240c0dbdc91cecc55aa895ce8",
+      "bytes": 2522
+    },
+    "model/mouth_assets/mouth_clean_patch.png": {
+      "sha256": "472b4d1a3e27531180c179592818e7fc957b1f1e23e4218ee92096ec42d20a80",
+      "bytes": 2809
+    },
+    "model/mouth_assets/mouth_closed.png": {
+      "sha256": "1580af589fca823f265a091603db619b836ccfe79be0180ed550c67b6ded67cd",
+      "bytes": 3050
+    },
+    "model/mouth_assets/mouth_geometry.json": {
+      "sha256": "167a6af344fc144b316d40b0a093d6e1141b8d545d570d8018950baa611cfa91",
+      "bytes": 1012
+    },
+    "model/mouth_assets/mouth_large.png": {
+      "sha256": "60eb73748e4e9c9fc3412cf23017c89dbd023babec1abcaebc3769d8341c9b2d",
+      "bytes": 3064
+    },
+    "model/mouth_assets/mouth_medium.png": {
+      "sha256": "992bf7acbbee01fa9e4d4cc478e0ed780a4b6f1acf72dad1a8492dd4dca5eb34",
+      "bytes": 3069
+    },
+    "model/mouth_assets/mouth_round.png": {
+      "sha256": "bda56bb6eb40cff26a0d9b239d4dd818cea0eb4286fac5256b48daab03a414bc",
+      "bytes": 3117
+    },
+    "model/mouth_assets/mouth_small.png": {
+      "sha256": "a6c685d8360997888fc43b9d798f437b87c49e4888d21cf9aa784a935712e8a2",
+      "bytes": 2904
+    },
+    "model/mouth_assets/mouth_wide.png": {
+      "sha256": "ba3847f26ffd908b8cf46857526ee60f5d861ec37791efbfcfad47048b10e82d",
+      "bytes": 3078
+    },
+    "model/mouth_vector_assets.py": {
+      "sha256": "ff215929aa8804e5f503bf34d605aa2f57c9cf1f57fd40937ad9323834a2b030",
+      "bytes": 3365
+    },
+    "model/native-model.js": {
+      "sha256": "1f26cabcdbdbe99bd4ca6ebafae97553ccec588c7ac559a7d968762f28c39878",
+      "bytes": 512757
+    },
+    "model/native_assets.json": {
+      "sha256": "cd2c5cea4fd1cd1f94d146988a461d4b3e0e6f0945aa21afb8ba0eced2f86e8b",
+      "bytes": 2773
+    },
+    "model/native_assets/16fe725db05cfab7a84e2bab.png": {
+      "sha256": "16fe725db05cfab7a84e2bab38a9f3723c8c17da692ac183f295cf44d1cf13c2",
+      "bytes": 1850
+    },
+    "model/native_assets/272dd38998cf76bb88eda30d.png": {
+      "sha256": "272dd38998cf76bb88eda30df084969eb983a5e5e43ab8e000317dcdbf92c815",
+      "bytes": 2087
+    },
+    "model/native_assets/4ddf1c31838a1bb98afd5f2b.png": {
+      "sha256": "4ddf1c31838a1bb98afd5f2be185a69dca564160e84a12bfdd2168d818663940",
+      "bytes": 8299
+    },
+    "model/native_assets/60464d5be3e57f3e5c357c21.png": {
+      "sha256": "60464d5be3e57f3e5c357c212710e07888fdaaf26b96cc1488c002271e5811eb",
+      "bytes": 36579
+    },
+    "model/native_assets/647bef18bd207e1b4bfb9db5.png": {
+      "sha256": "647bef18bd207e1b4bfb9db5c734ad4f43e209ed33ca543f2e0e03f9582d4e7a",
+      "bytes": 1924
+    },
+    "model/native_assets/7031e73da225a2e4c3836ef6.png": {
+      "sha256": "7031e73da225a2e4c3836ef60809f0b409caef13b165f3b9c05ce3f914815a5a",
+      "bytes": 40224
+    },
+    "model/native_assets/8ae0f14edbb3616755f1f900.png": {
+      "sha256": "8ae0f14edbb3616755f1f90049d10a433a9b34dcd164d680d1b52765b3b78586",
+      "bytes": 67111
+    },
+    "model/native_assets/93211b3a73f3be17ef71b793.png": {
+      "sha256": "93211b3a73f3be17ef71b7932ae3d46a6fadb537b8b3034c7a0eea605adcd3e9",
+      "bytes": 24518
+    },
+    "model/native_assets/96f76c33b59583dedc46170b.png": {
+      "sha256": "96f76c33b59583dedc46170b38555bbb681dee6d080433ed88e3deea6180cee3",
+      "bytes": 7494
+    },
+    "model/native_assets/a112b7443b670bde6752e961.png": {
+      "sha256": "a112b7443b670bde6752e961c8d74c5ab8705e7d1056a7ea74537dd5a96c430c",
+      "bytes": 6134
+    },
+    "model/native_assets/aa31e8a1517ea63c3a589230.png": {
+      "sha256": "aa31e8a1517ea63c3a5892308e8bf40a2dca1a1c011d1a6883f28734e4cb8209",
+      "bytes": 1968
+    },
+    "model/native_assets/b4dd4d2ab5942a1d79bac3d4.png": {
+      "sha256": "b4dd4d2ab5942a1d79bac3d4a20d7613cab6d4daf750bda1e9f6a25dcb61ccdc",
+      "bytes": 2026
+    },
+    "model/native_assets/d6ea65c2b11441d39a7ae09e.png": {
+      "sha256": "d6ea65c2b11441d39a7ae09e44279cfd9696ad619f75788987654d10674368a5",
+      "bytes": 162706
+    },
+    "model/native_assets/df5fc53ceb07885246cadea4.png": {
+      "sha256": "df5fc53ceb07885246cadea4af4aeee2733239f40293b86c4aec56d8daa1691f",
+      "bytes": 2042
+    },
+    "model/native_assets/dffcdad32f7805a1191d06a9.png": {
+      "sha256": "dffcdad32f7805a1191d06a9b9280cae2c9145af1cdc8474d759c6879ded5934",
+      "bytes": 9102
+    },
+    "model/package_model.py": {
+      "sha256": "0f86a624f2b0b78c716ab49ae8342ac3f6f8f565b42b36e4122e80556717c301",
+      "bytes": 3748
+    },
+    "model/rig_exports.json": {
+      "sha256": "f5c6e38ce5ffbbee961061413e718018c0d0e8c68c63affd2a499ac2e945739d",
+      "bytes": 5095
+    },
+    "model/sample_native_model.mjs": {
+      "sha256": "77942ae98e70413df48de723a57b253c50220141a06a00027e4e26bf8dc97a67",
+      "bytes": 7793
+    },
+    "model/sampled_frames.json": {
+      "sha256": "1cf7f706e08d29f060328885c4e8e8ae95e7c8a320ade7a7ff5c7670362ec114",
+      "bytes": 10410179
+    },
+    "model/source_parts/arm_left.png": {
+      "sha256": "4ddf1c31838a1bb98afd5f2be185a69dca564160e84a12bfdd2168d818663940",
+      "bytes": 8299
+    },
+    "model/source_parts/arm_right.png": {
+      "sha256": "dffcdad32f7805a1191d06a9b9280cae2c9145af1cdc8474d759c6879ded5934",
+      "bytes": 9102
+    },
+    "model/source_parts/body.png": {
+      "sha256": "8ae0f14edbb3616755f1f90049d10a433a9b34dcd164d680d1b52765b3b78586",
+      "bytes": 67111
+    },
+    "model/source_parts/eye_left.png": {
+      "sha256": "a112b7443b670bde6752e961c8d74c5ab8705e7d1056a7ea74537dd5a96c430c",
+      "bytes": 6134
+    },
+    "model/source_parts/eye_right.png": {
+      "sha256": "96f76c33b59583dedc46170b38555bbb681dee6d080433ed88e3deea6180cee3",
+      "bytes": 7494
+    },
+    "model/source_parts/hair_left.png": {
+      "sha256": "7031e73da225a2e4c3836ef60809f0b409caef13b165f3b9c05ce3f914815a5a",
+      "bytes": 40224
+    },
+    "model/source_parts/hair_right.png": {
+      "sha256": "60464d5be3e57f3e5c357c212710e07888fdaaf26b96cc1488c002271e5811eb",
+      "bytes": 36579
+    },
+    "model/source_parts/head.png": {
+      "sha256": "d6ea65c2b11441d39a7ae09e44279cfd9696ad619f75788987654d10674368a5",
+      "bytes": 162706
+    },
+    "model/source_parts/mouth_closed.png": {
+      "sha256": "647bef18bd207e1b4bfb9db5c734ad4f43e209ed33ca543f2e0e03f9582d4e7a",
+      "bytes": 1924
+    },
+    "model/source_parts/mouth_large.png": {
+      "sha256": "272dd38998cf76bb88eda30df084969eb983a5e5e43ab8e000317dcdbf92c815",
+      "bytes": 2087
+    },
+    "model/source_parts/mouth_medium.png": {
+      "sha256": "aa31e8a1517ea63c3a5892308e8bf40a2dca1a1c011d1a6883f28734e4cb8209",
+      "bytes": 1968
+    },
+    "model/source_parts/mouth_round.png": {
+      "sha256": "b4dd4d2ab5942a1d79bac3d4a20d7613cab6d4daf750bda1e9f6a25dcb61ccdc",
+      "bytes": 2026
+    },
+    "model/source_parts/mouth_small.png": {
+      "sha256": "16fe725db05cfab7a84e2bab38a9f3723c8c17da692ac183f295cf44d1cf13c2",
+      "bytes": 1850
+    },
+    "model/source_parts/mouth_wide.png": {
+      "sha256": "df5fc53ceb07885246cadea4af4aeee2733239f40293b86c4aec56d8daa1691f",
+      "bytes": 2042
+    },
+    "model/source_parts/skirt.png": {
+      "sha256": "93211b3a73f3be17ef71b7932ae3d46a6fadb537b8b3034c7a0eea605adcd3e9",
+      "bytes": 24518
+    },
+    "model/upstream_runtime/App-control.mjs": {
+      "sha256": "fa6dec67273ba34f94cea6e78465e15db1970a7abc5ecfb4f5dde579adfe0679",
+      "bytes": 1549
+    },
+    "model/upstream_runtime/UPSTREAM_NOTICE.txt": {
+      "sha256": "06fac767e86d598907c83dc44a5c115a7e974995775de109d3d3abbea97f3c7f",
+      "bytes": 461
+    },
+    "model/upstream_runtime/core.mjs": {
+      "sha256": "21819046ec87182c2f7b8cc088bfda81657b862d67bbf93090ed2a9d6296386f",
+      "bytes": 5891
+    },
+    "model/upstream_runtime/modelUtils.mjs": {
+      "sha256": "17660be6e6711e9bed25d95bf5818a40dd673b73bbbdc87927d690cf62be15ec",
+      "bytes": 6267
+    },
+    "model/upstream_runtime/upstream_source_manifest.json": {
+      "sha256": "456934f3a6013b9bb596cf1b4aaf22c8dc5643d0ee642c4373fcd122e1db364e",
+      "bytes": 1031
+    },
+    "model/vocal_mouth_envelope.json": {
+      "sha256": "c9723f386554e5ecb7070a7740c602c32b8a6d943cf75f893212a67e6ce2c699",
+      "bytes": 262914
+    },
+    "model/vocal_mouth_envelope.npz": {
+      "sha256": "ab3a816f1d43183b90cb026b1710834095e18ffb5ec09dc059d289b221c2a5d5",
+      "bytes": 173881
+    },
+    "model/模型使用说明.txt": {
+      "sha256": "ef49af00a86aeb92b27f4ddd57bb584187e38b530578c267346712ec642e8d04",
+      "bytes": 2953
+    }
+  }
+}

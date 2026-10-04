@@ -1,0 +1,40 @@
+GUMI 大脸 Q 版 · 小初音工作室 Reborn 模型
+
+1. 打开小初音工作室 Reborn：
+   https://yuyuyzl.github.io/halfne-miku-studio-reborn/
+2. 进入 Settings（设置）页，点击文件夹图标（鼠标悬停显示“导入模型”）。
+3. 选择 native-model.js，或单独下载的 GUMI_大脸Q版_小初音工作室随唱口型模型.js。
+   两个文件字节相同。所有角色图片已嵌入 JS，无需另外导入 PNG。
+   在 Background（背景）页可以选择 Paper 纸色底或透明背景；导入模型不会自动切换背景。
+4. 鼠标轻轻左右移动，可以让角色歪头；头发、裙摆有独立的轻微摆动。
+   X：闭眼；1：安静待机；2：稍强的轻摆。
+   A：大开口；D：中开口；W：圆口；S：小开口；E：大圆口。松开按键恢复闭口。
+   这些按键沿用原版默认模型的控制 ID，因此导入后也兼容原界面的按键映射。
+5. 如果需要播放本次 PV 的角色动作，在 Timeline（时间轴）页点击“导入动作”，
+   选择 HMSR_GUMI_PV.json。该文件包含 60 fps、约 234 秒的可编辑动作。
+   再点击“导入音乐”选择你自己提供的音频，并设置渲染范围。
+   音乐文件未嵌入模型。背景、歌词排版和音频可视化属于完整 PV 制作工程。
+
+画面设计：大脸、短身、蓬松绿发与淡橙/灰绿衣服；细铅笔线、浅色块、纸面感。
+闭眼只替换眼睛小区域；嘴部是独立的局部层，随演唱活动开合，长停顿和间奏闭口。
+闭口保留原来的笑线，小开口、大开口与圆口跟随头部。脸和手保持刚性变换。
+口型使用受歌词/单词时轴限制的中心声道人声活动近似，不属于逐音素对齐。
+
+本次 PV 的角色是由同一个最终导出 JS 生成。采样工具直接调用项目原生的
+parseModelJS、parseConfig、getInitPhysics 和 work；各帧层级、旋转、透明度、
+物理状态与嵌入图片均来自该模型，Python 视频合成器只负责栅格化与字幕合成。
+
+可重复生成（Node 18+，无需 npm 安装）：
+  node sample_native_model.mjs
+默认输出 sampled_frames.json、native_assets.json、model_manifest.json。
+示例独立抽检第 0、150、7301 帧：
+  node sample_native_model.mjs --probe 0,150,7301
+只修改图片拆层/枢轴后重新导出（需要 Python、Pillow、NumPy、OpenCV）：
+  python build_model.py --rig ../assets/gumi/rig_exports.json --features ../audio_features.npz
+  node sample_native_model.mjs
+vocal_mouth_envelope.json 记录本曲的人声活动包络，已写入动作 JSON 的 mouthOpen 字段。
+
+upstream_runtime/ 保留了真实项目的导入与物理计算代码；来源、原始 SHA 与极小的
+Node 扩展名适配列在其中的 upstream_source_manifest.json 和 UPSTREAM_NOTICE.txt。
+原始项目：https://github.com/yuyuyzl/halfne-miku-studio-reborn
+原版 Halfne Miku Studio：JohnSu / Bietol。

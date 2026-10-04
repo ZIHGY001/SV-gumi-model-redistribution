@@ -1,0 +1,78 @@
+{
+  "schema": "halfne-native-model-v1",
+  "native_js": {
+    "path": "native-model.js",
+    "sha256": "1f26cabcdbdbe99bd4ca6ebafae97553ccec588c7ac559a7d968762f28c39878"
+  },
+  "sample_file": {
+    "path": "sampled_frames.json",
+    "sha256": "1cf7f706e08d29f060328885c4e8e8ae95e7c8a320ade7a7ff5c7670362ec114"
+  },
+  "control_manifest": {
+    "path": "control_manifest.json",
+    "sha256": "df43fdabba78361f68419983492e8b88b9671363530a7c761cc37b17ac3ad577"
+  },
+  "actions": {
+    "path": "HMSR_GUMI_PV.json",
+    "sha256": "946fccb81dd45e137d563732b36d2569178a44aae41ca915d8e07f81a5b5a569"
+  },
+  "sampler": {
+    "path": "sample_native_model.mjs",
+    "sha256": "77942ae98e70413df48de723a57b253c50220141a06a00027e4e26bf8dc97a67"
+  },
+  "assets_manifest": {
+    "path": "native_assets.json",
+    "sha256": "cd2c5cea4fd1cd1f94d146988a461d4b3e0e6f0945aa21afb8ba0eced2f86e8b"
+  },
+  "mouth_envelope": {
+    "path": "vocal_mouth_envelope.json",
+    "sha256": "c9723f386554e5ecb7070a7740c602c32b8a6d943cf75f893212a67e6ce2c699"
+  },
+  "upstream_runtime": [
+    {
+      "upstream_file": "src/Engine/modelUtils.js",
+      "upstream_sha256": "17660be6e6711e9bed25d95bf5818a40dd673b73bbbdc87927d690cf62be15ec",
+      "runtime_file": "upstream_runtime/modelUtils.mjs",
+      "runtime_sha256": "17660be6e6711e9bed25d95bf5818a40dd673b73bbbdc87927d690cf62be15ec",
+      "adaptation": "Original source bytes"
+    },
+    {
+      "upstream_file": "src/Engine/core.js",
+      "upstream_sha256": "d2a81b5d7d4b68665989d20ca23b7be9fc04087ec344ed40c41ee679164d91c9",
+      "runtime_file": "upstream_runtime/core.mjs",
+      "runtime_sha256": "21819046ec87182c2f7b8cc088bfda81657b862d67bbf93090ed2a9d6296386f",
+      "adaptation": "Only import extension .js -> .mjs"
+    },
+    {
+      "upstream_file": "src/App.js",
+      "upstream_sha256": "5063e24870fccc4bf79d43abc5fee36768c4a90c5f2d192b870712c501e0ccfc",
+      "runtime_file": "upstream_runtime/App-control.mjs",
+      "runtime_sha256": "fa6dec67273ba34f94cea6e78465e15db1970a7abc5ecfb4f5dde579adfe0679",
+      "adaptation": "Extracted exact getRawControl declaration, added export"
+    }
+  ],
+  "frame_count": 14044,
+  "fps": 60,
+  "geometry": {
+    "source_canvas": [
+      508,
+      689
+    ],
+    "native_height": 520,
+    "scale": 0.7547169811320755,
+    "anchor": [
+      400,
+      560
+    ],
+    "source_anchor": [
+      273.404,
+      650.568
+    ],
+    "crop_box": [
+      175.65735849056603,
+      51.005283018867885,
+      595.0535849056604,
+      607.0052830188679
+    ]
+  }
+}

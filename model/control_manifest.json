@@ -1,0 +1,26 @@
+{
+  "schema": "halfne-native-controls-v1",
+  "record": "HMSR_GUMI_PV.json",
+  "record_sha256": "946fccb81dd45e137d563732b36d2569178a44aae41ca915d8e07f81a5b5a569",
+  "fps": 60,
+  "frame_count": 14044,
+  "duration": 234.05714583333335,
+  "clock": "animationTime seconds, frame index / fps",
+  "raw_control_reader": "upstream_runtime/App-control.mjs",
+  "raw_control_reader_sha256": "fa6dec67273ba34f94cea6e78465e15db1970a7abc5ecfb4f5dde579adfe0679",
+  "controls": {
+    "mouse": "Head follows mouse gently; no face mesh distortion",
+    "EyeBlink / x": "Hold to close eyes",
+    "EyeHappy / 1": "Calm idle",
+    "EyeJaded / 2": "Slightly stronger sway",
+    "Wave": "Small hand wave in imported actions",
+    "MouthAA / a": "Large open mouth",
+    "MouthEE / d": "Medium mouth",
+    "MouthOO / w": "Rounded mouth",
+    "MouthEH / s": "Small open mouth",
+    "MouthOH / e": "Large rounded mouth",
+    "mouthOpen": "Recorded vocal-activity opening 0..1; pauses closed",
+    "animationTime": "Optional deterministic playback clock in seconds",
+    "audioEnergy": "Optional music energy 0..1; subtle amplitude only"
+  }
+}

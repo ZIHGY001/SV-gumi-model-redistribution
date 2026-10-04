@@ -1,0 +1,75 @@
+{
+  "head_patch_box": [
+    228,
+    303,
+    275,
+    339
+  ],
+  "global_patch_box": [
+    235,
+    310,
+    282,
+    346
+  ],
+  "global_mouth_center": [
+    257,
+    325
+  ],
+  "shape_bounds_head": {
+    "closed": [
+      233,
+      312,
+      265,
+      325
+    ],
+    "small": [
+      242.5,
+      314.0,
+      257.5,
+      322.0
+    ],
+    "medium": [
+      239.0,
+      311.5,
+      261.0,
+      324.5
+    ],
+    "wide": [
+      236.0,
+      308.5,
+      264.0,
+      327.5
+    ],
+    "large": [
+      233.0,
+      305.5,
+      267.0,
+      330.5
+    ],
+    "round": [
+      241.0,
+      305.5,
+      259.0,
+      330.5
+    ]
+  },
+  "states": [
+    "closed",
+    "small",
+    "medium",
+    "wide",
+    "large",
+    "round"
+  ],
+  "thresholds": [
+    0,
+    0.1,
+    0.3,
+    0.5,
+    0.74
+  ],
+  "old_mouth_removed_only_for_open_states": true,
+  "method": "Local original-skin patch, narrow baked-stroke mask; code-defined rounded mouth openings",
+  "head_source": "head.png",
+  "no_face_mesh_warp": true
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "upstream_file": "src/Engine/modelUtils.js",
+    "upstream_sha256": "17660be6e6711e9bed25d95bf5818a40dd673b73bbbdc87927d690cf62be15ec",
+    "runtime_file": "upstream_runtime/modelUtils.mjs",
+    "runtime_sha256": "17660be6e6711e9bed25d95bf5818a40dd673b73bbbdc87927d690cf62be15ec",
+    "adaptation": "Original source bytes"
+  },
+  {
+    "upstream_file": "src/Engine/core.js",
+    "upstream_sha256": "d2a81b5d7d4b68665989d20ca23b7be9fc04087ec344ed40c41ee679164d91c9",
+    "runtime_file": "upstream_runtime/core.mjs",
+    "runtime_sha256": "21819046ec87182c2f7b8cc088bfda81657b862d67bbf93090ed2a9d6296386f",
+    "adaptation": "Only import extension .js -> .mjs"
+  },
+  {
+    "upstream_file": "src/App.js",
+    "upstream_sha256": "5063e24870fccc4bf79d43abc5fee36768c4a90c5f2d192b870712c501e0ccfc",
+    "runtime_file": "upstream_runtime/App-control.mjs",
+    "runtime_sha256": "fa6dec67273ba34f94cea6e78465e15db1970a7abc5ecfb4f5dde579adfe0679",
+    "adaptation": "Extracted exact getRawControl declaration, added export"
+  }
+]

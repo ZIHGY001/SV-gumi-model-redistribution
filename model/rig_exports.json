@@ -1,0 +1,261 @@
+{
+  "schema": "gumi-rig-exports-v1",
+  "canvas_size": [
+    508,
+    689
+  ],
+  "source_sheet": "gumi_largeface_sheet.png",
+  "open_file": "open.png",
+  "closed_file": "closed.png",
+  "parts": [
+    {
+      "id": "body",
+      "parent": null,
+      "file": "parts/body.png",
+      "pivot": [
+        273.404,
+        650.568
+      ],
+      "crop_position": [
+        71,
+        187
+      ],
+      "position": [
+        71,
+        187
+      ],
+      "width": 390,
+      "height": 495,
+      "z": 0,
+      "kind": "rigid",
+      "sha256": "5702733402d2011062293e57d6ff8d7c58d60d47bc55dfddc657388a7cdf9aea"
+    },
+    {
+      "id": "skirt",
+      "parent": "body",
+      "file": "parts/skirt.png",
+      "pivot": [
+        256.772,
+        457.02500000000003
+      ],
+      "crop_position": [
+        140,
+        435
+      ],
+      "position": [
+        140,
+        435
+      ],
+      "width": 248,
+      "height": 123,
+      "z": 1,
+      "kind": "rigid",
+      "sha256": "a744361021d051ec8b34dd8af0f8ce9b203a0103ed0050473ff41b1762e3891b"
+    },
+    {
+      "id": "arm_left",
+      "parent": "body",
+      "file": "parts/arm_left.png",
+      "pivot": [
+        199.022,
+        394.654
+      ],
+      "crop_position": [
+        91,
+        367
+      ],
+      "position": [
+        91,
+        367
+      ],
+      "width": 140,
+      "height": 159,
+      "z": 2,
+      "kind": "rigid",
+      "sha256": "042c9ab822afce3cf8317b724abaf449af890b660c3223d5864474aaa6cc2399"
+    },
+    {
+      "id": "arm_right",
+      "parent": "body",
+      "file": "parts/arm_right.png",
+      "pivot": [
+        338.54600000000005,
+        394.654
+      ],
+      "crop_position": [
+        310,
+        371
+      ],
+      "position": [
+        310,
+        371
+      ],
+      "width": 127,
+      "height": 163,
+      "z": 3,
+      "kind": "rigid",
+      "sha256": "7dd0f9158de089ff23e4ed84f8e671919cd79f13dcd37ec4e19d4a9cf6ea7f6c"
+    },
+    {
+      "id": "head",
+      "parent": "body",
+      "file": "parts/head.png",
+      "pivot": [
+        264.626,
+        379.22200000000004
+      ],
+      "crop_position": [
+        7,
+        7
+      ],
+      "position": [
+        7,
+        7
+      ],
+      "width": 494,
+      "height": 387,
+      "z": 4,
+      "kind": "rigid",
+      "sha256": "9eeb65721590cb9ddb95a20ade871a3bffb1fe12e63ab43dc7673d0a6ed0a400"
+    },
+    {
+      "id": "hair_left",
+      "parent": "head",
+      "file": "parts/hair_left.png",
+      "pivot": [
+        150.97400000000002,
+        287.27299999999997
+      ],
+      "crop_position": [
+        13,
+        150
+      ],
+      "position": [
+        13,
+        150
+      ],
+      "width": 161,
+      "height": 287,
+      "z": 5,
+      "kind": "rigid",
+      "sha256": "b650dd85e14a66befdbfb5c8b227016690ae018ad8fa853d49aad7189e8a06b0"
+    },
+    {
+      "id": "hair_right",
+      "parent": "head",
+      "file": "parts/hair_right.png",
+      "pivot": [
+        361.646,
+        325.21
+      ],
+      "crop_position": [
+        327,
+        193
+      ],
+      "position": [
+        327,
+        193
+      ],
+      "width": 168,
+      "height": 278,
+      "z": 6,
+      "kind": "rigid",
+      "sha256": "607456bd03648928caeb886aa3e42677260e4097f05bd7d8b66e752b450264ee"
+    },
+    {
+      "id": "eye_left",
+      "parent": "head",
+      "file": "parts/eye_left.png",
+      "pivot": [
+        201.5,
+        271.5
+      ],
+      "crop_position": [
+        169,
+        230
+      ],
+      "position": [
+        169,
+        230
+      ],
+      "width": 65,
+      "height": 83,
+      "z": 7,
+      "kind": "closed-eye replacement overlay",
+      "sha256": "1faf76744f0a4c0ee796bf15d6fbc42e9415133d66b3b26e0deb1873590508fb"
+    },
+    {
+      "id": "eye_right",
+      "parent": "head",
+      "file": "parts/eye_right.png",
+      "pivot": [
+        332.0,
+        288.5
+      ],
+      "crop_position": [
+        296,
+        245
+      ],
+      "position": [
+        296,
+        245
+      ],
+      "width": 72,
+      "height": 87,
+      "z": 8,
+      "kind": "closed-eye replacement overlay",
+      "sha256": "152267b5f6d938d5ed7308f13a84e2a9714299080c3d2c74288b4a9d46ba19bb"
+    }
+  ],
+  "eyes_bbox": [
+    [
+      169,
+      230,
+      234,
+      313
+    ],
+    [
+      296,
+      245,
+      368,
+      332
+    ]
+  ],
+  "body_pivot": [
+    273.404,
+    650.568
+  ],
+  "head_pivot": [
+    264.626,
+    379.22200000000004
+  ],
+  "source_bbox": [
+    48,
+    12,
+    766,
+    1012
+  ],
+  "draw_order": [
+    "body",
+    "skirt",
+    "arm_left",
+    "arm_right",
+    "head",
+    "hair_left",
+    "hair_right",
+    "eye_left",
+    "eye_right"
+  ],
+  "skin_geometry": "Face/hands rigid; no mouth animation; hidden hair paint repaired once before export",
+  "blink_style": "closed-eye overlay native opacity 0 or 1; do not mix two visible eye outlines",
+  "source_sha256": {
+    "open.png": "fc20acf69b66073f2750e74b3d721797c058218d9924f69ad27ff45304e0a2b8",
+    "closed.png": "cd1f2d8acb1e43d1d038d90e0b37f8a02721c955908ba609ef6347c70c4137ab"
+  },
+  "suggested_limits_degrees": {
+    "head": 1.6,
+    "hair": 2.2,
+    "arms": 2.2,
+    "skirt": 1.7
+  }
+}
