@@ -1,0 +1,41 @@
+{
+  "name": "GUMI Chibi Model for Halfne Miku Studio Reborn",
+  "version": "1.0.0",
+  "entry": "GUMI-Chibi-HMSR.js",
+  "model_sha256": "13f5971550822f13ea65a7c5960d6c06c345bb64f5d21f4df5e72a0e63facbda",
+  "format": "mikuConfig native model JavaScript",
+  "stage": [
+    800,
+    600
+  ],
+  "model_nodes": 13,
+  "unique_embedded_png_resources": 26,
+  "expressions": [
+    "neutral",
+    "happy",
+    "sleepy",
+    "thinking",
+    "surprise"
+  ],
+  "mouth_shapes": [
+    "closed",
+    "small",
+    "medium",
+    "wide",
+    "large",
+    "round"
+  ],
+  "local_head_rotation_degrees": [
+    -9.9,
+    9.78
+  ],
+  "external_images_required": false,
+  "audio_driven_lipsync_builtin": false,
+  "demo": {
+    "path": "../examples/demo-controls-30s.json",
+    "fps": 60,
+    "frame_count": 1800,
+    "duration_seconds": 30,
+    "song_specific": false
+  }
+}
